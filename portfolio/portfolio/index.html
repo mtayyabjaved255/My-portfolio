@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tayyab Javed - Graphic Designer specialising in packaging labels, branding and social media creatives.">
+    <meta name="theme-color" content="#121212">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet">
+
+    <title>Tayyab Javed | Graphic Designer Portfolio</title>
+</head>
+<body>
+
+    <!--===== LOADER =====-->
+    <div class="loader" id="loader">
+        <div class="loader__box">
+            <div class="loader__ring">
+                <svg viewBox="0 0 120 120">
+                    <circle class="loader__track" cx="60" cy="60" r="54"/>
+                    <circle class="loader__bar" id="loader-bar" cx="60" cy="60" r="54"/>
+                </svg>
+                <span class="loader__logo">TJ</span>
+            </div>
+            <p class="loader__name">Tayyab Javed</p>
+            <p class="loader__sub" id="loader-text">Loading portfolio</p>
+            <span class="loader__percent" id="loader-percent">0%</span>
+        </div>
+    </div>
+
+    <!--===== CURSOR =====-->
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-ring" id="cursor-ring"></div>
+
+    <!--===== SCROLL PROGRESS =====-->
+    <div class="progress" id="progress"></div>
+
+    <!--===== HEADER =====-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-grid">
+            <a href="#home" class="nav__logo">Tayyab<span>.</span></a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle"><i class='bx bx-menu'></i></div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <p class="home__hello">Hello, I'm</p>
+                <h1 class="home__title">Tayyab <span class="home__title-color">Javed</span></h1>
+                <h2 class="home__role"><span id="typed"></span><span class="home__caret">|</span></h2>
+                <p class="home__desc">I craft packaging labels, brand identities and social media creatives that look premium and sell.</p>
+
+                <div class="home__buttons">
+                    <a href="#contact" class="button">Hire Me</a>
+                    <a href="#work" class="button button--ghost">View Work</a>
+                </div>
+            </div>
+
+            <div class="home__social">
+                <a href="#" class="home__social-icon" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+                <a href="#" class="home__social-icon" aria-label="Behance"><i class='bx bxl-behance'></i></a>
+                <a href="#" class="home__social-icon" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+            </div>
+
+            <div class="home__img">
+                <div class="home__frame">
+                    <img src="assets/img/profile.png" alt="Tayyab Javed" class="home__photo">
+                </div>
+                <span class="home__badge"><i class='bx bxs-paint'></i> Graphic Designer</span>
+            </div>
+        </section>
+
+        <!--===== STATS =====-->
+        <section class="stats bd-grid">
+            <div class="stats__item"><span class="stats__num" data-count="13">0</span><span class="stats__plus">+</span><p>Projects Showcased</p></div>
+            <div class="stats__item"><span class="stats__num" data-count="10">0</span><span class="stats__plus">+</span><p>Design Concepts</p></div>
+            <div class="stats__item"><span class="stats__num" data-count="6">0</span><span class="stats__plus">+</span><p>Months Experience</p></div>
+            <div class="stats__item"><span class="stats__num" data-count="100">0</span><span class="stats__plus">%</span><p>Client Focus</p></div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section" id="about">
+            <h2 class="section-title">About Me</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/about.png" alt="Tayyab Javed portrait">
+                </div>
+
+                <div class="about__info">
+                    <h3 class="about__subtitle">I'm Tayyab Javed</h3>
+                    <p class="about__text">A detail-driven graphic designer focused on packaging, supplement and food-label design, brand identity systems, flyers and social media creatives. I turn a product idea into a clean, shelf-ready and compliant design.</p>
+                    <p class="about__text">From Supplement Facts panels to full brand guidelines with colour palettes and typography, I deliver print-ready work that helps brands look trustworthy and premium.</p>
+
+                    <ul class="about__list">
+                        <li><i class='bx bx-check-circle'></i> Packaging &amp; label design</li>
+                        <li><i class='bx bx-check-circle'></i> Brand identity &amp; logo systems</li>
+                        <li><i class='bx bx-check-circle'></i> Flyers &amp; social media posts</li>
+                        <li><i class='bx bx-check-circle'></i> Print-ready file delivery</li>
+                    </ul>
+
+                    <a href="#contact" class="button">Let's Talk</a>
+                </div>
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container bd-grid">
+                <div>
+                    <h3 class="skills__subtitle">Professional Skills</h3>
+                    <p class="skills__text">Tools and techniques I use every day to deliver polished, production-ready designs.</p>
+
+                    <div class="skills__data">
+                        <div class="skills__names"><i class='bx bxs-paint skills__icon'></i><span class="skills__name">Adobe Illustrator</span></div>
+                        <div class="skills__bar"><span class="skills__fill" data-level="95"></span></div>
+                        <span class="skills__percentage">95%</span>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names"><i class='bx bx-image skills__icon'></i><span class="skills__name">Adobe Photoshop</span></div>
+                        <div class="skills__bar"><span class="skills__fill" data-level="90"></span></div>
+                        <span class="skills__percentage">90%</span>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names"><i class='bx bx-package skills__icon'></i><span class="skills__name">Label &amp; Packaging</span></div>
+                        <div class="skills__bar"><span class="skills__fill" data-level="95"></span></div>
+                        <span class="skills__percentage">95%</span>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names"><i class='bx bx-shape-circle skills__icon'></i><span class="skills__name">Branding &amp; Logo</span></div>
+                        <div class="skills__bar"><span class="skills__fill" data-level="88"></span></div>
+                        <span class="skills__percentage">88%</span>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names"><i class='bx bxl-instagram skills__icon'></i><span class="skills__name">Social Media Design</span></div>
+                        <div class="skills__bar"><span class="skills__fill" data-level="90"></span></div>
+                        <span class="skills__percentage">90%</span>
+                    </div>
+                </div>
+
+                <div class="skills__cards">
+                    <div class="skills__card"><i class='bx bx-package'></i><h4>Packaging</h4><p>Supplement, food &amp; beverage labels.</p></div>
+                    <div class="skills__card"><i class='bx bx-palette'></i><h4>Branding</h4><p>Logos, palettes &amp; typography.</p></div>
+                    <div class="skills__card"><i class='bx bx-news'></i><h4>Flyers</h4><p>Offers, menus &amp; promotions.</p></div>
+                    <div class="skills__card"><i class='bx bx-mobile-alt'></i><h4>Social Media</h4><p>Posts that stop the scroll.</p></div>
+                </div>
+            </div>
+        </section>
+
+        <!--===== WORK =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title">My Work</h2>
+
+            <div class="work__filters bd-grid">
+                <button class="work__filter active" data-filter="all">All</button>
+                <button class="work__filter" data-filter="label">Labels</button>
+                <button class="work__filter" data-filter="flyer">Flyers &amp; Social</button>
+                <button class="work__filter" data-filter="brand">Branding</button>
+            </div>
+
+            <div class="work__container bd-grid" id="gallery">
+                <figure class="work__item" data-cat="label"><img src="assets/img/work_1.jpg" alt="Chronox Isolate protein label" loading="lazy"><figcaption><i class='bx bx-zoom-in'></i><span>Chronox Isolate</span><small>Supplement Label</small></figcaption></figure>
+                <figure class="work__item" data-cat="label"><img src="assets/img/work_3.jpg" alt="Veliqo Magnesium Glycinate label" loading="lazy"><figcaption><i class='bx bx-zoom-in'></i><span>Veliqo Magnesium</span><small>Supplement Label</small></figcaption></figure>
+                <figure class="work__item" data-cat="label"><img src="assets/img/work_5.jpg" alt="Royalicious Collagen Complex label" loading="lazy"><figcaption><i class='bx bx-zoom-in'></i><span>Royalicious Collagen</span><small>Supplement Label</small></figcaption></figure>
+                <figure class="work__item" data-cat="label"><img src="assets/img/work_6.jpg" alt="Vital Path Ultra NAD label" loading="lazy"><figcaption><i class='bx bx-zoom-in'></i><span>Vital Path Ultra NAD+</span><small>Supplement Label</small></figcaption></figure>
+                <figure class="work__item" data-cat="label"><img src="assets/img/work_12.jpg" alt="CannaCure Cannabinoid Complex label" loading="lazy"><figcaption><i class='bx bx-zoom-in'></i><span>CannaCure</span><small>Dropper Bottle Label</small></figcaption></figure>
+                <figure class="work__item" data-cat="label"><img src="assets/img/work_4.jpg" alt="PepPure vial label" loading="lazy"><figcaption><i class='bx bx-zoom-in'></i><span>PepPure</span><small>Vial Label</small></figcaption></figure>
+                <figure class="work__item" data-cat="label"><img src="assets/img/work_7.jpg" alt="Apexlif GoDigest gummies label" loading="lazy"><figcaption><i class='bx bx-zoom-in'></i><span>Apexlif GoDigest</span><small>Multilingual Label</small></figcaption></figure>
+                <figure class="work__item" data-cat="label"><img src="assets/img/work_8.gif" alt="Aquavitaly Creatina label" loading="lazy"><figcaption><i class='bx bx-zoom-in'></i><span>Aquavitaly Creatina</span><small>Spanish Label</small></figcaption></figure>
+                <figure class="work__item" data-cat="label"><img src="assets/img/work_11.jpg" alt="Honey Company label template" loading="lazy"><figcaption><i class='bx bx-zoom-in'></i><span>Honey Company</span><small>Food Label</small></figcaption></figure>
+                <figure class="work__item" data-cat="label"><img src="assets/img/work_10.jpg" alt="Beverage bottle label" loading="lazy"><figcaption><i class='bx bx-zoom-in'></i><span>Beverage Label</span><small>Bottle Wrap</small></figcaption></figure>
+                <figure class="work__item" data-cat="flyer"><img src="assets/img/work_13.gif" alt="Super Delicious food flyer" loading="lazy"><figcaption><i class='bx bx-zoom-in'></i><span>Super Delicious</span><small>Food Flyer</small></figcaption></figure>
+                <figure class="work__item" data-cat="flyer"><img src="assets/img/work_2.jpg" alt="Modern Furniture social post" loading="lazy"><figcaption><i class='bx bx-zoom-in'></i><span>Modern Furniture</span><small>Social Media Post</small></figcaption></figure>
+                <figure class="work__item" data-cat="brand"><img src="assets/img/work_9.jpg" alt="The Hour brand identity board" loading="lazy"><figcaption><i class='bx bx-zoom-in'></i><span>The Hour</span><small>Brand Identity</small></figcaption></figure>
+            </div>
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <div class="contact__info">
+                    <h3 class="contact__subtitle">Let's work together</h3>
+                    <p class="contact__text">Have a label, brand or flyer in mind? Send me the details and I'll reply within 24 hours.</p>
+
+                    <a href="mailto:m.tayyebjaved255@gmail.com" class="contact__card"><i class='bx bx-envelope'></i><div><small>Email</small><span>m.tayyebjaved255@gmail.com</span></div></a>
+                    <a href="tel:+923161672814" class="contact__card"><i class='bx bx-phone'></i><div><small>Phone / WhatsApp</small><span>+92 316 1672814</span></div></a>
+                    <div class="contact__card"><i class='bx bx-time-five'></i><div><small>Response time</small><span>Within 24 hours</span></div></div>
+                    <div class="contact__card"><i class='bx bx-map'></i><div><small>Location</small><span>Pakistan &middot; Working worldwide</span></div></div>
+                </div>
+
+                <form class="contact__form" id="contact-form" novalidate>
+                    <input type="text" name="_honey" class="contact__honey" tabindex="-1" autocomplete="off">
+
+                    <div class="contact__row">
+                        <div class="contact__field">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" placeholder="Your name" value="M Tayyab" class="contact__input" required>
+                            <small class="contact__error"></small>
+                        </div>
+                        <div class="contact__field">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" placeholder="you@example.com" class="contact__input" required>
+                            <small class="contact__error"></small>
+                        </div>
+                    </div>
+
+                    <div class="contact__row">
+                        <div class="contact__field">
+                            <label for="phone">Phone / WhatsApp</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+92 300 0000000" value="+92 03161672814" class="contact__input">
+                            <small class="contact__error"></small>
+                        </div>
+                        <div class="contact__field">
+                            <label for="service">Service Needed *</label>
+                            <select id="service" name="service" class="contact__input" required>
+                                <option value="">Select a service</option>
+                                <option selected>Label / Packaging Design</option>
+                                <option>Brand Identity &amp; Logo</option>
+                                <option>Flyer / Social Media Design</option>
+                                <option>Other</option>
+                            </select>
+                            <small class="contact__error"></small>
+                        </div>
+                    </div>
+
+                    <div class="contact__field">
+                        <label for="subject">Subject *</label>
+                        <input type="text" id="subject" name="subject" placeholder="Project title" value="Graphic Design Portfolio – Label Design" class="contact__input" required>
+                        <small class="contact__error"></small>
+                    </div>
+
+                    <div class="contact__field">
+                        <label for="message">Message * <span class="contact__count" id="msg-count">288 / 1000</span></label>
+                        <textarea id="message" name="message" rows="6" maxlength="1000" placeholder="Tell me about your project..." class="contact__input" required>Hello, I am a Graphic Designer with practical experience in Label Design using Adobe Illustrator and Adobe Photoshop. I am creating my professional portfolio to showcase my design skills and creative work. I would like to discuss my project and explore potential opportunities. Thank you!</textarea>
+                        <small class="contact__error"></small>
+                    </div>
+
+                    <button type="submit" class="button contact__button" id="submit-btn">
+                        <span class="contact__btn-text">Send Message <i class='bx bx-send'></i></span>
+                        <span class="contact__spinner"></span>
+                    </button>
+
+                    <p class="contact__status" id="form-status" role="status"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Tayyab<span>.</span></p>
+        <div class="footer__social">
+            <a href="#" class="footer__icon" aria-label="Facebook"><i class='bx bxl-facebook'></i></a>
+            <a href="#" class="footer__icon" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+            <a href="#" class="footer__icon" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+            <a href="#" class="footer__icon" aria-label="Behance"><i class='bx bxl-behance'></i></a>
+        </div>
+        <p class="footer__copy">&#169; <span id="year"></span> Tayyab Javed. All rights reserved.</p>
+    </footer>
+
+    <a href="#home" class="to-top" id="to-top" aria-label="Back to top"><i class='bx bx-up-arrow-alt'></i></a>
+
+    <!--===== LIGHTBOX =====-->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox__close" id="lb-close" aria-label="Close"><i class='bx bx-x'></i></button>
+        <button class="lightbox__nav lightbox__prev" id="lb-prev" aria-label="Previous"><i class='bx bx-chevron-left'></i></button>
+        <img src="" alt="" id="lb-img">
+        <button class="lightbox__nav lightbox__next" id="lb-next" aria-label="Next"><i class='bx bx-chevron-right'></i></button>
+        <p class="lightbox__caption" id="lb-caption"></p>
+    </div>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
